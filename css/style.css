@@ -1,58 +1,64 @@
+body
 
-body{
-	padding:0px;
+{
 	margin: 0px;
-	background-color:  #81ecec;
-
-
+	padding: 0px;
+	
 }
-.logo, .navigation, .banner,.foot{
 
-background-color: gray;
-	min-height: 10px;
-	margin: 7px 30px;
-	padding:15px;
-	font-size: 50px;
-
-
-}
-.navigation{
-	padding:10px;
-	font-size: 25px;
-	text-align: center;
-	}
-.banner{
-	padding: 30px;
-	font-size: 25px;
-	text-align: center;
-}
-.wrapingbox{
-margin: 30px;
-overflow: hidden;
-
-}
-.side{
+.head,.banner,.intro,.foot,.box,.box1{
 	background-color: gray;
 	min-height: 100px;
+	margin: 50px;
+	padding: 100px;
+	font-size: 90px;
+	text-align: center;
+
+}
+.logo{
 	width: 30%;
-	padding-bottom: 200px;
-	padding-top: 200px;
 	float: left;
-	font-size: 25px;
+	font-size: 90px;
 	text-align: center;
 }
-.area{
-	background-color: gray;
-	min-height: 100px;
-	width: 69%;
-	padding-bottom: 200px;
-	padding-top: 200px;
-	float:right;
-	font-size: 25px;
+.navi
+{
+	width: 60%;
+	float: right;
+	font-size: 90px;
 	text-align: center;
+
 }
-.foot{
-padding:10px;
-font-size: 25px;
+.wrap{
+	display: flex;
+	justify-content:space-between;
+	
+}
+.box{
+background-color: gray;
+min-height: 10px;
+width: 70%;
+margin-bottom:10px;
+padding: 500px;
+font-size: 90px;
 	text-align: center;
+
+}
+.wrap2{
+	display: flex;
+	 
+	flex-wrap:wrap;
+	justify-content :space-between;
+
+
+}
+.box1{
+background-color: gray;
+
+width: 40px;
+
+padding: 600px;
+font-size: 50px;
+	text-align: center;
+
 }
