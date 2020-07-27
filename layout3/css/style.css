@@ -1,0 +1,46 @@
+body
+
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.head,.banner,.intro,.foot{
+	background-color: gray;
+	min-height: 100px;
+	margin: 50px;
+	padding: 100px;
+	font-size: 90px;
+	text-align: center;
+
+}
+.logo{
+	width: 30%;
+	float: left;
+	font-size: 90px;
+	text-align: center;
+}
+.navi
+{
+	width: 60%;
+	float: right;
+	font-size: 90px;
+	text-align: center;
+
+}
+.wrap{
+	display: flex;
+	justify-content:space-between;
+	
+}
+.box1,.box2,.box3{
+background-color: gray;
+min-height: 10px;
+width: 70%;
+margin: 50px;
+padding: 500px;
+font-size: 90px;
+	text-align: center;
+
+}
